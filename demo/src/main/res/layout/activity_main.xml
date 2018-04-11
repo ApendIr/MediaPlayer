@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mediaplayer.apend.ir.MediaPlayerLibrary
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/player"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:evp_autoFullscreen="false"
+    app:evp_autoPlay="true"
+    app:evp_customLabelText="Hello!"
+    app:evp_disableControls="false"
+    app:evp_hideControlsOnPlay="false"
+    app:evp_leftAction="restart"
+    app:evp_pauseDrawable="@drawable/evp_action_pause"
+    app:evp_playDrawable="@drawable/evp_action_play"
+    app:evp_restartDrawable="@drawable/evp_action_restart"
+    app:evp_retryText="@string/evp_retry"
+    app:evp_rightAction="submit"
+    app:evp_submitText="@string/evp_submit"
+    app:evp_mediaType="audio"
+    />
